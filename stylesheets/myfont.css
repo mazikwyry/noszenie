@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../font/icomoon.eot?-ahmrav');
+	src:url('../font/icomoon.eot?#iefix-ahmrav') format('embedded-opentype'),
+		url('../font/icomoon.woff?-ahmrav') format('woff'),
+		url('../font/icomoon.ttf?-ahmrav') format('truetype'),
+		url('../font/icomoon.svg?-ahmrav#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+	content: "\e600";
+}
+
