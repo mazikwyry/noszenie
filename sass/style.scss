@@ -436,6 +436,12 @@ h3{
       display: block;
     }
   }
+  .card .btn{
+    margin: 20px 0 0 0;
+  }
+  .fixed_height{
+    min-height: 380px;
+  }
 }
 
 .services_2{
@@ -596,6 +602,10 @@ screen and (-webkit-min-device-pixel-ratio: 2) and (max-height : 600px) {
 
   html{
     font-size: 55%;
+  }
+
+  .services .fixed_height{
+    min-height: 100px;
   }
 }
 
