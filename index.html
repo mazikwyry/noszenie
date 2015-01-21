@@ -122,7 +122,7 @@
           
           <p>Jestem również organizatorem i współorganizatorem spotkań chustowych, które odbywają się cyklicznie w różnych miejscach na śląsku. Jest to cudowna relacja potrzebna każdemu rodzicowi i każdemu dziecku.</p>
 
-          <p>Jestem doradcą noszenia w chustach i nosidłach miękkich po kursie ClauWi.</p>
+          <p>Jestem Doradcą Noszenia w chustach i nosidłach miękkich po kursie ClauWi.</p>
         </div>
       </article>
       <article class="white article">
@@ -237,7 +237,7 @@
                   <span class="card-title black-text">Terminy</span>
                   <br>
                   <p>
-                    O terminach i koszty inforumuje na bieżąco na moim profilu facebook<br/>
+                    O terminach i kosztach informuję na bieżąco na moim profilu facebook<br/>
                     <a href="https://www.facebook.com/pages/Doradca­Noszenia­Ma%C5%82gorzata-Szolc/915444721807744?fref=ts" target="_blank"  class="waves-effect waves-light white-text red lighten-2 btn">SPRAWDŹ TERMINY</a>
                     <br/>
                   </p>
@@ -252,7 +252,7 @@
                   <span class="card-title black-text">Grupy</span>
                   <br>
                   <p>
-                    Warsztaty odbywają się w dwóch grupach (dla początkujących i zaawansowanych)
+                    Warsztaty odbywają się w dwóch grupach (wiązania z przodu i wiązania na plecach)
                     <br><br><br><br>
                   </p>
                 </div>
@@ -355,7 +355,7 @@
                     <span class="card-title black-text">Terminy</span>
                     <br>
                     <p>
-                      O terminach i koszty inforumuje na bieżąco na moim profilu facebook<br/>
+                      O terminach i kosztach informuję na bieżąco na moim profilu facebook<br/>
                       <a href="https://www.facebook.com/pages/Doradca­Noszenia­Ma%C5%82gorzata-Szolc/915444721807744?fref=ts" target="_blank"  class="waves-effect waves-light white-text red lighten-2 btn">SPRAWDŹ TERMINY</a>
                       <br/>
                     </p>
@@ -391,6 +391,28 @@
          <i class="mdi-editor-insert-comment large light-blue-text text-lighten-2"></i>
         </span>
         <div class="article-content">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card white">
+                <div class="card-content black-text">
+                  <span class="card-title black-text"><span class="decorative_text light-blue-text text-lighten-2">Justyna</span></span>
+                  <p>
+                    Polecam konsultacje u Gosi. To niezwykle ciepła i życzliwa osoba. Chętna do pomocy nawet w beznadziejnych przypadkach. Do tego jest fizjoterapeutą co może okazać się pomocne u dzieci z problemami napięciowymi.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card white">
+                <div class="card-content black-text">
+                  <span class="card-title black-text"><span class="decorative_text light-blue-text text-lighten-2">Asia</span></span>
+                  <p>
+                    Bardzo dziękujemy za doradztwo! Zdecydowanie warto było się umówić aby otrzymać profesjonalną pomoc. Zdrowie dzieci najważniejsze, warto więc zadbać by nosząc dziecię przy sercu robić to jak należy. Do chusty nie byłam przekonana, ale chyba tylko dlatego, że nie wiedziałam co i jak, a instruktarz w filmikach na youtube wydawał się mocno skomplikowany. Dziękuje za pomoc. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="row">
             <div class="col s12 m6">
               <div class="card white">
@@ -440,24 +462,24 @@
             <div class="col s12 m6">
 
               <div class="row">
-                <form class="col s12">
+                <form class="col s12" id="form">
                   <div class="row">
                     <div class="input-field col s12">
                       <i class="mdi-action-account-circle prefix"></i>
-                      <input id="icon_prefix" type="text">
+                      <input id="icon_prefix" type="text" required>
                       <label for="icon_prefix">Twoje imię</label>
                     </div>
                     <div class="input-field col s12">
                       <i class="mdi-communication-email prefix"></i>
-                      <input id="icon_telephone" type="text">
+                      <input id="icon_telephone" type="email" required>
                       <label for="icon_telephone">Twój email</label>
                     </div>
                     <div class="input-field col s12">
-                      <textarea class="materialize-textarea" required></textarea>
+                      <textarea class="materialize-textarea" required id='textarea'></textarea>
                       <label>Twoja wiadomość</label>
                      </div>
                   </div>
-                    <button class="btn waves-effect waves-light right orange lighten-2" type="submit" name="action">Wyślij
+                    <button class="btn waves-effect waves-light right orange lighten-2" type="submit" name="action" id="send_button">Wyślij
                       <i class="mdi-content-send right"></i>
                     </button>
                 </form>

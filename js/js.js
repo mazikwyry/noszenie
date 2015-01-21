@@ -52,5 +52,23 @@ $(function() {
   	},300);
   	$(window).bind("resize", listenWidth);
   });
+
+    $("#form").submit(function(){
+      $('#send_button').html("Chwilka...");
+      $.ajax({
+        type: "POST",
+        url: "mail.php",
+        data: { email: $("#icon_telephone").val(), name:  $("#icon_prefix").val(), text:  $("#textarea").val()}
+      }).done(function() {
+        toast('Dziękuje za kontakt!', 6000) 
+        setTimeout(function(){
+            $('#textarea').val("").blur();
+            $('#icon_telephone').val("").blur();
+            $('#icon_prefix').val("").blur();
+            $('#send_button').html("Wyślij <i class=\"mdi-content-send right\"></i>");
+        },2000)
+      });
+      return false;
+    })
   
 });
